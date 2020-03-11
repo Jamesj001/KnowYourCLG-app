@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:background="@drawable/walle"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.nikhil.hp.knowyourclg.homepage">
+
+
+    <com.yinglan.shadowimageview.ShadowImageView
+        android:id="@+id/shadow"
+        android:layout_width="330dp"
+        android:layout_height="280dp"
+        android:layout_centerInParent="true"
+
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_x="22dp"
+        android:layout_y="2dp"
+        app:shadowColor="@android:color/black"
+        app:shadowRound="20dp"
+        app:shadowSrc="@drawable/mmmlogo" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="198dp"
+        android:text="योगः कर्मसु कौशलम्"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="0dp"
+        android:layout_y="242dp"
+        android:fontFamily="@font/courgette"
+        android:paddingLeft="25dp"
+        android:text="@string/largetext"
+        android:textAlignment="gravity"
+        android:textSize="15dp" />
+
+</AbsoluteLayout>

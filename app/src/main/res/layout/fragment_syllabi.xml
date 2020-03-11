@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="15dp"
+    android:background="#1E8BC3"
+    android:orientation="vertical"
+    tools:context="com.nikhil.hp.knowyourclg.Syllabi">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:text="Syllabi Of All Courses"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:paddingTop="8dp"
+        android:text="B.Tech Courses"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:id="@+id/cse"
+        android:text="Computer Science &amp; Engineering"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:id="@+id/ece"
+        android:text="Electronics &amp; Communication Engineering"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:id="@+id/ee"
+        android:text="Electrical Engineering"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:id="@+id/ce"
+        android:text="Civil Engineering"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:id="@+id/me"
+        android:text="Mechanical Engineering"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:id="@+id/ch"
+        android:text="Chemical Engineering"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:paddingTop="8dp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:text="M.Tech Courses"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:id="@+id/mtech"
+        android:text="M.Tech Syllabi"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:paddingTop="10dp"
+        android:text="M.Sc. Course"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:id="@+id/msc"
+        android:text="Physics(Specialization in Electronics)"/>
+
+
+</LinearLayout>

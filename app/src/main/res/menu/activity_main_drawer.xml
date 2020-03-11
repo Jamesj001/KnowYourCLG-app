@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="KnowYourCLG">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/academ"
+                    android:icon="@drawable/ic_school_black_24dp"
+                    android:title="Academics"
+                    />
+                <item
+                    android:id="@+id/map"
+                    android:icon="@drawable/ic_location_on_black_24dp"
+                    android:title="Location" />
+
+      <!--          <item
+                    android:id="@+id/tt"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Time-Table" /> -->
+                <item
+                    android:id="@+id/clubs"
+                    android:icon="@drawable/ic_security_societies_24dp"
+                    android:title="Societies" />
+                <item
+                    android:id="@+id/ebooks"
+                    android:icon="@drawable/ic_import_contacts_black_24dp"
+                    android:title="E Books" />
+                <item
+                    android:id="@+id/Diic"
+                    android:icon="@drawable/ic_account_balance_black_24dp"
+                    android:title="DIIC" />
+                <item
+                    android:id="@+id/info"
+                    android:icon="@drawable/ic_info_outline_black_24dp"
+                    android:title="Info" />
+            </group>
+        </menu>
+    </item>
+</menu>

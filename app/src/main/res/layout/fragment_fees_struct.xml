@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backy"
+    android:paddingTop="70dp"
+    tools:context="com.nikhil.hp.knowyourclg.FeesStruct">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_x="9dp"
+        android:layout_y="2dp">
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_x="144dp"
+            android:layout_y="412dp"
+            android:background="#9c88ff"
+            android:text="M.Sc./Ph.D./MCA/MBA/M.Tech.I year"
+            android:textColor="#ffffff" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_x="100dp"
+        android:layout_y="80dp">
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:layout_x="135dp"
+            android:layout_y="91dp"
+            android:background="#e84118"
+            android:text="B.Tech. II year(Lateral Entry)"
+            android:textColor="#ffffff" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_x="6dp"
+        android:layout_y="157dp">
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="243dp"
+            android:layout_height="40dp"
+            android:layout_x="0dp"
+            android:layout_y="189dp"
+            android:background="#fbc531"
+            android:text="B.Tech.III year(Lateral Entry)"
+            android:textColor="#ffffff" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_x="109dp"
+        android:layout_y="233dp">
+
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="236dp"
+            android:layout_height="59dp"
+            android:layout_x="147dp"
+            android:layout_y="255dp"
+            android:background="#44bd32"
+            android:text="B.Tech. IV year(Lateral Entry)"
+            android:textColor="#ffffff" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_x="5dp"
+        android:layout_y="315dp">
+
+        <Button
+            android:id="@+id/bt5"
+            android:layout_width="243dp"
+            android:layout_height="40dp"
+            android:layout_x="0dp"
+            android:layout_y="342dp"
+            android:background="#0097e6"
+            android:text="MCA/MBA/M.Tech./Ph.D. II year"
+            android:textColor="#ffffff" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_x="100dp"
+        android:layout_y="393dp">
+
+        <Button
+            android:id="@+id/bt6"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="8dp"
+            android:background="#9c88ff"
+            android:text="B.Tech 1st year to Final year students"
+            android:textColor="#ffffff" />
+    </android.support.v7.widget.CardView>
+
+</AbsoluteLayout>
